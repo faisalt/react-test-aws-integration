@@ -9,4 +9,4 @@ phases:
       - yarn install
   build:
     commands:
-      - yarn test
+      - yarn test:ci
