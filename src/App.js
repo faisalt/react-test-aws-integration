@@ -7,7 +7,6 @@ function App() {
       <p>Hello world</p>
       <p>Some more text</p>
       <p>Some more text here.</p>
-      <p>Some more text here..</p>
     </>
   );
 }
