@@ -3,10 +3,15 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 12
     commands:
       - echo Installing dependency...
       - yarn install
   build:
     commands:
       - yarn test:ci
+      - yarn build
+artifacts:
+  files:
+    - "**/*"
+  base-directory: build
