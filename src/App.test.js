@@ -3,5 +3,5 @@ import App from "./App";
 
 test("renders hello world text", () => {
   const { getByText } = render(<App />);
-  expect(getByText("Hello world")).toBeInTheDocument();
+  expect(getByText("Hello worlds")).toBeInTheDocument();
 });
