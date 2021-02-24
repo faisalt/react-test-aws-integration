@@ -11,6 +11,7 @@ phases:
     commands:
       - yarn test:ci
       - yarn build
+      - aws s3 rm -recursive "s3://${ARTIFACTS_BUCKET}/"
 artifacts:
   files:
     - "**/*"
